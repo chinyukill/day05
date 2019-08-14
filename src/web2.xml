@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://www.example.org/web-app_2_5" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.example.org/web-app_2_5 web-app_2_5.xsd"
+            version="2.5">
+     <servlet>
+     	<servlet-name>MyServletImpl1</servlet-name>
+     	<servlet-class>com.cd.dom4j.MyServletImpl1</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>MyServletImpl1</servlet-name>
+     	<url-parttern>/MyServletImpl1</url-parttern>
+     </servlet-mapping>
+     </web-app>
